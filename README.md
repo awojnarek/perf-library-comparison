@@ -57,33 +57,35 @@ Notes:
 ### Memory
 
 #### Linux 
+
+Virtual Memory
 |  Metric  | gopsutil | nmon |   |   |
 |---|---|---|---|---|
-| total | x |  |  |  |
+| total | x | x |  |  |
 | available | x |  |  |  |
 | used | x |  |  |  |
 | usedPercent | x |  |  |  |
-| free | x |  |  |  |
-| active | x |  |  |  |
-| inactive | x |  |  |  |
+| free | x | x |  |  |
+| active | x | x |  |  |
+| inactive | x | x |  |  |
 | wired | x |  |  |  |
 | laundry | x |  |  |  |
-| buffers | x |  |  |  |
-| cached | x |  |  |  |
+| buffers | x | x |  |  |
+| cached | x | x |  |  |
 | writeback | x |  |  |  |
 | dirty | x |  |  |  |
 | writebacktmp | x |  |  |  |
-| shared | x |  |  |  |
+| shared | x | x |  |  |
 | slab | x |  |  |  |
 | sreclaimable | x |  |  |  |
 | pagetables | x |  |  |  |
 | swapcached | x |  |  |  |
 | commitlimit | x |  |  |  |
 | committedas | x |  |  |  |
-| hightotal | x |  |  |  |
-| highfree | x |  |  |  |
-| lowtotal | x |  |  |  |
-| lowfree | x |  |  |  |
+| hightotal | x | x |  |  |
+| highfree | x | x |  |  |
+| lowtotal | x | x |  |  |
+| lowfree | x | x |  |  |
 | swaptotal | x |  |  |  |
 | swapfree | x |  |  |  |
 | mapped | x |  |  |  |
@@ -93,6 +95,26 @@ Notes:
 | hugepagestotal | x |  |  |  |
 | hugepagesfree | x |  |  |  |
 | hugepagesize | x |  |  |  |
+| bigfree |  | x |  |  |
+
+Swap
+|  Metric  | gopsutil | nmon |   |   |
+|---|---|---|---|---|
+| total | x | x |  |  |
+| used | x |  |  |  |
+| free | x | x |  |  |
+| swap cached |  | x |  |  |
+| usedPercent | x |  |  |  |
+| sin | x |  |  |  |
+| sout | x |  |  |  |
+
+
+hightotal,lowtotal,highfree,lowfree,bigfree
+
+Notes:
+* NMON grabs all of /proc/meminfo, but NOT as metrics. Once per collection it'll grab the stats, but metric collection is different.
+* gopsutil returns a static list of things it collects. I.E if things get added to /proc/meminfo it will not be collected.
+
 
 ### Network
 ### Disk
