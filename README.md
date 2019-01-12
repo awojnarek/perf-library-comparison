@@ -25,7 +25,44 @@ nmon (binary)
 | cacheSize | x  |   |   |   |
 | flags | x  |   |   |   |
 | Microcode | x  |   |   |   |
+| cpu family | x  |   |   |   |
+| siblings |  | x  |   |   |
+| apicid |   | x |   |   |
+| fpu |  | x |   |   |
+| wp |  | x |   |   |
+| bugs |  | x |   |   |
+| bogomips |  | x |   |   |
+| clflush_size |  | x |   |   |
+| cache alignment |   | x |   |   |
+| address sizes |  | x  |   |   |
 
+|  Metric | gopsutil  | nmon  |   |   |
+|---|---|---|---|---|
+| User |  x | x |   |   |
+| System | x  | x |   |   |
+| Idle | x  | x |   |   |
+| Nice | x  |   |   |   |
+| iowait | x  |   |   |   |
+| irq | x |  |   |   |
+| steal | x  |   |   |   |
+| guest | x |   |   |   |
+| guestNice | x  |   |   |   |
+| stolen | x  |   |   |   |
+
+
+    |  Metric | gopsutil  | nmon  |   |   |
+|---|---|---|---|---|
+|  |  x |   |   |   |
+|  | x  |   |   |   |
+|  | x  |   |   |   |
+|  | x  |   |   |   |
+|  | x  |   |   |   |
+|  | x |  |   |   |
+|  | x  |   |   |   |
+|  | x |   |   |   |
+|  | x  |   |   |   |
+|  | x  |   |   |   |
+|  | x  |   |   |   |
 ### Memory
 ### Network
 ### Disk
