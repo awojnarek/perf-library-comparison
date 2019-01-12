@@ -14,19 +14,19 @@ nmon (binary)
 #### Linux & MacOS
 |  Config | gopsutil  | nmon  |   |   |
 |---|---|---|---|---|
-| vendorId |  x |   |   |   |
-| family | x  |   |   |   |
-| model | x  |   |   |   |
-| stepping | x  |   |   |   |
-| physicalId | x  |   |   |   |
-| coreId |  x |  |   |   |
-| cores (#) | x  |   |   |   |
-| mhz |  x |   |   |   |
-| cacheSize | x  |   |   |   |
-| flags | x  |   |   |   |
-| Microcode | x  |   |   |   |
-| cpu family | x  |   |   |   |
-| siblings |  | x  |   |   |
+| vendorId | x | x |   |   |
+| family | x  | x |   |   |
+| model | x  | x |   |   |
+| stepping | x  | x |   |   |
+| physicalId | x  | x |   |   |
+| coreId |  x | x |   |   |
+| cores (#) | x  | x |   |   |
+| mhz |  x | x |   |   |
+| cacheSize | x  | x |   |   |
+| flags | x  | x |  |   |
+| Microcode | x  | x |   |   |
+| cpu family | x  | x |   |   |
+| siblings |  | x  |  |   |
 | apicid |   | x |   |   |
 | fpu |  | x |   |   |
 | wp |  | x |   |   |
