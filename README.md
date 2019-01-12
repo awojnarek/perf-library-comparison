@@ -57,7 +57,7 @@ Notes:
 ### Memory
 
 #### Linux 
-    |  Metric | gopsutil  | nmon  |   |   |
+|    |  Metric | gopsutil  | nmon  |   |
 |---|---|---|---|---|
 | total | x |  |  |  |
 | available | x |  |  |  |
