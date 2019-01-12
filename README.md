@@ -47,28 +47,53 @@ Notes:
 | System | x  | x |   |   |
 | Idle | x  | x |   |   |
 | Nice | x  |   |   |   |
-| iowait | x  |   |   |   |
+| iowait | x  | x |   |   |
 | irq | x |  |   |   |
 | steal | x  |   |   |   |
 | guest | x |   |   |   |
 | guestNice | x  |   |   |   |
 | stolen | x  |   |   |   |
 
+### Memory
 
+#### Linux 
     |  Metric | gopsutil  | nmon  |   |   |
 |---|---|---|---|---|
-|  |  x |   |   |   |
-|  | x  |   |   |   |
-|  | x  |   |   |   |
-|  | x  |   |   |   |
-|  | x  |   |   |   |
-|  | x |  |   |   |
-|  | x  |   |   |   |
-|  | x |   |   |   |
-|  | x  |   |   |   |
-|  | x  |   |   |   |
-|  | x  |   |   |   |
-### Memory
+| total | x |  |  |  |
+| available | x |  |  |  |
+| used | x |  |  |  |
+| usedPercent | x |  |  |  |
+| free | x |  |  |  |
+| active | x |  |  |  |
+| inactive | x |  |  |  |
+| wired | x |  |  |  |
+| laundry | x |  |  |  |
+| buffers | x |  |  |  |
+| cached | x |  |  |  |
+| writeback | x |  |  |  |
+| dirty | x |  |  |  |
+| writebacktmp | x |  |  |  |
+| shared | x |  |  |  |
+| slab | x |  |  |  |
+| sreclaimable | x |  |  |  |
+| pagetables | x |  |  |  |
+| swapcached | x |  |  |  |
+| commitlimit | x |  |  |  |
+| committedas | x |  |  |  |
+| hightotal | x |  |  |  |
+| highfree | x |  |  |  |
+| lowtotal | x |  |  |  |
+| lowfree | x |  |  |  |
+| swaptotal | x |  |  |  |
+| swapfree | x |  |  |  |
+| mapped | x |  |  |  |
+| vmalloctotal | x |  |  |  |
+| vmallocused | x |  |  |  |
+| vmallocchunk | x |  |  |  |
+| hugepagestotal | x |  |  |  |
+| hugepagesfree | x |  |  |  |
+| hugepagesize | x |  |  |  |
+
 ### Network
 ### Disk
 ### Other

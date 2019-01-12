@@ -1,12 +1,14 @@
 package main
 
 import (
-	"fmt"
-
 	"github.com/awojnarek/perf-library-comparison/pkg/cpu"
+	"github.com/awojnarek/perf-library-comparison/pkg/memory"
 )
 
 func main() {
-	fmt.Println("Testing CPU")
+	println("Testing CPU")
 	cpu.TestCPU()
+
+	println("Testing Memory")
+	memory.TestMem()
 }
