@@ -36,6 +36,11 @@ nmon (binary)
 | cache alignment |   | x |   |   |
 | address sizes |  | x  |   |   |
 
+Notes: 
+* NMON grabs all of /proc/cpuinfo
+* gopsutil returns a static list of things it collects. I.E if things get added to /proc/cpuinfo it will not be collected.
+
+
 |  Metric | gopsutil  | nmon  |   |   |
 |---|---|---|---|---|
 | User |  x | x |   |   |
