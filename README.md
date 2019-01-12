@@ -4,8 +4,9 @@
 
 The purpose of this project is to compare a few libraries that pull OS performance stats:
 
-gopsutil
-nmon (binary)
+* [gopsutil](https://github.com/shirou/gopsutil)
+* [NMON](http://nmon.sourceforge.net) (Binary)
+
 
 ## Comparison
 
@@ -111,13 +112,29 @@ Swap
 | sout | x |  |  |  |
 
 
-hightotal,lowtotal,highfree,lowfree,bigfree
 
 Notes:
 * NMON grabs all of /proc/meminfo, but NOT as metrics. Once per collection it'll grab the stats, but metric collection is different.
 * gopsutil returns a static list of things it collects. I.E if things get added to /proc/meminfo it will not be collected.
 
-
 ### Network
+
+#### Linux
+Connections
+
+|  Metric  | gopsutil | nmon |   |   |
+|---|---|---|---|---|
+| fd | x |  |  |  |
+| family | x |  |  |  |
+| type | x |  |  |  |
+| local ip | x |  |  |  |
+| local port | x |  |  |  |
+| remote ip | x |  |  |  |
+| remote port | x |  |  |  |
+| status | x |  |  |  |
+| uids | x |  |  |  |
+| pid | x |  |  |  |
+
+
 ### Disk
 ### Other
