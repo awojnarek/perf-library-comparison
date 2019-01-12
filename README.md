@@ -59,6 +59,7 @@ Notes:
 #### Linux 
 
 Virtual Memory
+
 |  Metric  | gopsutil | nmon |   |   |
 |---|---|---|---|---|
 | total | x | x |  |  |
@@ -98,6 +99,7 @@ Virtual Memory
 | bigfree |  | x |  |  |
 
 Swap
+
 |  Metric  | gopsutil | nmon |   |   |
 |---|---|---|---|---|
 | total | x | x |  |  |
