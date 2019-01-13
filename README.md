@@ -225,4 +225,49 @@ UDP
 
 
 ### Disk
-### Other
+
+#### Linux
+
+Usage
+
+|  Metric  | gopsutil | nmon |   |   |
+|---|---|---|---|---|
+| fstype | x | * |  |  |
+| total | x | * |  |  |
+| free | x | * |  |  |
+| used | x | * |  |  |
+| usedPercent | x | * |  |  |
+| inodesTotal | x | * |  |  |
+| inodesUsed | x | * |  |  |
+| inodesFree | x | * |  |  |
+| inodesUsedPercent | x | * |  |  |
+
+* Denotes that NMON collects it, but not every metric interval. Once per entire collection.
+
+Counters
+
+|  Metric  | gopsutil | nmon |   |   |
+|---|---|---|---|---|
+| readCount | x | x |  |  |
+| mergedReadCount | x |  |  |  |
+| writeCount | x | x |  |  |
+| mergedWriteCount | x |  |  |  |
+| readBytes | x | x |  |  |
+| writeBytes | x | x |  |  |
+| readTime | x |  |  |  |
+| writeTime | x |  |  |  |
+| iopsInProgress | x |  |  |  |
+| ioTime | x | x |  |  |
+| weightedIO | x |  |  |  |
+| disk busy | | x | | |
+| read block size | | x | | |
+| write block size | | x | | |
+
+
+### Load
+|  Metric  | gopsutil | nmon |   |   |
+|---|---|---|---|---|
+| load1 | x |  |  |  |
+| load5 | x |  |  |  |
+| load15 | x |  |  |  |
+
