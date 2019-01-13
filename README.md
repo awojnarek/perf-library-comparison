@@ -157,6 +157,7 @@ Protocols
 IP 
 
 |  Metric  | gopsutil | nmon |   |   |
+|---|---|---|---|---|
 | DefaultTTL | x |  |  |  |
 | ForwDatagrams | x |  |  |  |
 | Forwarding | x |  |  |  |
@@ -180,6 +181,7 @@ IP
 ICMP
 
 |  Metric  | gopsutil | nmon |   |   |
+|---|---|---|---|---|
 | InAddrMaskReps | x |  |  |  |
 | InAddrMasks | x |  |  |  |
 | InCsumErrors | x |  |  |  |
@@ -211,6 +213,7 @@ ICMP
 UDP
 
 |  Metric  | gopsutil | nmon |   |   |
+|---|---|---|---|---|
 | IgnoredMulti | x |  |  |  |
 | InCsumErrors | x |  |  |  |
 | InDatagrams | x |  |  |  |
