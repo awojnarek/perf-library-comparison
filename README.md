@@ -135,6 +135,91 @@ Connections
 | uids | x |  |  |  |
 | pid | x |  |  |  |
 
+Counters
+
+|  Metric  | gopsutil | nmon |   |   |
+|---|---|---|---|---|
+| bytesSent | x | x |  |  |
+| bytesRecv | x | x |  |  |
+| packetsSent | x | x |  |  |
+| packetsRecv | x | x |  |  |
+| errin | x | * |  |  |
+| errout | x | * |  |  |
+| dropin | x | * |  |  |
+| dropout | x | * |  |  |
+| fifoin | x | * |  |  |
+| fifoout | x | * |  |  |
+
+* Denotes that NMON collects it, but not every metric interval. Once per entire collection.
+
+Protocols
+
+IP 
+
+|  Metric  | gopsutil | nmon |   |   |
+| DefaultTTL | x |  |  |  |
+| ForwDatagrams | x |  |  |  |
+| Forwarding | x |  |  |  |
+| FragCreates | x |  |  |  |
+| FragFails | x |  |  |  |
+| FragOKs | x |  |  |  |
+| InAddrErrors | x |  |  |  |
+| InDelivers | x |  |  |  |
+| InDiscards | x |  |  |  |
+| InHdrErrors | x |  |  |  |
+| InReceives | x |  |  |  |
+| InUnknownProtos | x |  |  |  |
+| OutDiscards | x |  |  |  |
+| OutNoRoutes | x |  |  |  |
+| OutRequests | x |  |  |  |
+| ReasmFails | x |  |  |  |
+| ReasmOKs | x |  |  |  |
+| ReasmReqds | x |  |  |  |
+| ReasmTimeout | x |  |  |  |
+
+ICMP
+
+|  Metric  | gopsutil | nmon |   |   |
+| InAddrMaskReps | x |  |  |  |
+| InAddrMasks | x |  |  |  |
+| InCsumErrors | x |  |  |  |
+| InDestUnreachs | x |  |  |  |
+| InEchoReps | x |  |  |  |
+| InEchos | x |  |  |  |
+| InErrors | x |  |  |  |
+| InMsgs | x |  |  |  |
+| InParmProbs | x |  |  |  |
+| InRedirects | x |  |  |  |
+| InSrcQuenchs | x |  |  |  |
+| InTimeExcds | x |  |  |  |
+| InTimestampReps | x |  |  |  |
+| InTimestamps | x |  |  |  |
+| OutAddrMaskReps | x |  |  |  |
+| OutAddrMasks | x |  |  |  |
+| OutDestUnreachs | x |  |  |  |
+| OutEchoReps | x |  |  |  |
+| OutEchos | x |  |  |  |
+| OutErrors | x |  |  |  |
+| OutMsgs | x |  |  |  |
+| OutParmProbs | x |  |  |  |
+| OutRedirects | x |  |  |  |
+| OutSrcQuenchs | x |  |  |  |
+| OutTimeExcds | x |  |  |  |
+| OutTimestampReps | x |  |  |  |
+| OutTimestamps | x |  |  |  |
+
+UDP
+
+|  Metric  | gopsutil | nmon |   |   |
+| IgnoredMulti | x |  |  |  |
+| InCsumErrors | x |  |  |  |
+| InDatagrams | x |  |  |  |
+| InErrors | x |  |  |  |
+| NoPorts | x |  |  |  |
+| OutDatagrams | x |  |  |  |
+| RcvbufErrors | x |  |  |  |
+| SndbufErrors | x |  |  |  |
+
 
 ### Disk
 ### Other
