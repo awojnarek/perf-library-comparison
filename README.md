@@ -267,7 +267,26 @@ Counters
 ### Load
 |  Metric  | gopsutil | nmon |   |   |
 |---|---|---|---|---|
-| load1 | x |  |  |  |
-| load5 | x |  |  |  |
-| load15 | x |  |  |  |
+| load1 | x | x |  |  |
+| load5 | x | x |  |  |
+| load15 | x | x |  |  |
+
+### Processes
+Per PID
+
+|  Metric  | gopsutil | nmon |   |   |
+|---|---|---|---|---|
+| # of threads | x | x|  |  |
+| # fd's | x |  |  |  |
+| io rw bytes | x |  |  |  |
+| rw io | x |  |  |  |
+| net packets | x |  |  |  |
+| net io | x |  |  |  |
+| net drops | x |  |  |  |
+| net errors | x |  |  |  |
+| rw io | x |  |  |  |
+| memory maps | x |  |  |  |
+| cpu time | x |  |  |  |
+
+
 

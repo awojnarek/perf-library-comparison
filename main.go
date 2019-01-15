@@ -6,6 +6,7 @@ import (
 	"github.com/awojnarek/perf-library-comparison/pkg/load"
 	"github.com/awojnarek/perf-library-comparison/pkg/memory"
 	"github.com/awojnarek/perf-library-comparison/pkg/network"
+	"github.com/awojnarek/perf-library-comparison/pkg/process"
 )
 
 func main() {
@@ -23,4 +24,7 @@ func main() {
 
 	println("Testing Load")
 	load.TestLoad()
+
+	println("Testing Process")
+	process.TestProcess()
 }
