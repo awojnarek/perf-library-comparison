@@ -276,7 +276,7 @@ Per PID
 
 |  Metric  | gopsutil | nmon |   |   |
 |---|---|---|---|---|
-| # of threads | x | x|  |  |
+| # of threads | x | |  |  |
 | # fd's | x |  |  |  |
 | io rw bytes | x |  |  |  |
 | rw io | x |  |  |  |
